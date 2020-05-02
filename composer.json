@@ -1,0 +1,27 @@
+{
+    "name": "sirdoro/contact",
+    "description": "This file package will send mail to admin and also say to database the message",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Doro",
+            "email": "sirdoro1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sirdoro\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sirdoro\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+
+}
